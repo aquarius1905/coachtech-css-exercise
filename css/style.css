@@ -1,0 +1,63 @@
+/*--------------------------------- 
+  header
+---------------------------------*/
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 70px 0;
+  height: 80px;
+}
+
+.company_name {
+  color: #4018a0;
+  font-size: 36px;
+}
+
+.list_item {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.list_item:last-child {
+  margin-right: 0;
+}
+
+.menu_name {
+  text-decoration: none;
+  font-weight: bold;
+  color: #4018a0;
+  font-size: 18px;
+}
+
+/*---------------------------------
+  main
+---------------------------------*/
+main {
+  margin-top: 500px;
+  padding: 0 30px;
+}
+.main_container {
+  position: relative;
+}
+
+.firstview_container {
+  width: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 130px;
+}
+
+.firstview {
+  width: 100%;
+}
+
+h2 {
+  font-size: 80px;
+  font-weight: normal;
+}
+
+.box {
+  width: 75%;
+  height: 250px;
+  background-color: #00277e;
+}
